@@ -1,0 +1,117 @@
+/* *{ border: 1px solid red; } */
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto Slab';
+  background-color: #151528;
+}
+
+colors {
+  /* Primary Colors (buttons, headlines, icons) */
+  color: #FC6230;
+  color: #3D9EC8;
+  color: #8ac4dd;
+  color: #29648A;
+  color: #232343;
+  /* Secondary Colors (secondaries, headings, subheadings, supporting content) */
+  color: #E7E7E7;
+  color: #9F9F9F;
+  /* Neutral Colors (Backgrounds and text)*/
+  background-color: #151528;
+}
+
+/* Content styling */
+.title {
+  font-size: 4.5vmax;
+  color: #E7E7E7;
+}
+
+.subtitle {
+  font-size: 3.5vmax;
+  line-height: 5vmax;
+  color: #9F9F9F;
+}
+
+.heading-font {
+  font-size: 2.5vmax;
+  color: #E7E7E7;
+}
+
+.paragraphs {
+  font-size: 1.5vmax;
+  color: #E7E7E7;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.designed {
+  position: relative;
+  margin-top: 4%;
+  font-size: 10px;
+  color: #9F9F9F;
+}
+.fa-4x {
+  color: #FC6230;
+}
+.fa-2x {
+  color: #FC6230;
+}
+
+.nav-link {
+  color:#FC6230;
+}
+
+.nav-tabs > li > a{
+  border: medium none;
+}
+.nav-tabs > li > a:hover{
+  border: medium none;
+  color:#fff;
+}
+
+
+/* Container styling */
+.container-fluid {
+  height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -50px;
+}
+  
+.header-container div {
+  text-align: center;
+  height: 30%;
+}
+
+.about-container {
+  margin-top: 50px;
+}
+
+.about-container .row div{
+  margin: 0;
+}
+
+.project-container {
+  margin-top: 50px;
+}
+
+.experience-container {
+  margin-top: 50px;
+}
+
+.footer-container {
+  margin-top: 25%;
+  background-color: #232343;
+}
+
