@@ -1,8 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
     display: grid;
-    background-image: linear-gradient(rgba(246, 224, 224, 0.842),rgba(255, 252, 226, 0.856),rgb(238, 222, 222));
+    background-color:#151528;
     
-   
     
 
     
@@ -31,10 +33,15 @@ body {
 
   .container {
     position: relative;
-    border: solid 1px;
+    /* border: solid 1px; */
     height: 900px;
+    color: white
 
     
+  }
+
+  .link {
+    color: whitesmoke
   }
 
   p {
@@ -53,7 +60,7 @@ body {
 
 .page2bg {
   height: 100%;
-  border: 5px dotted black;
+  /* border: 5px dotted black; */
   background-color: rgba(255, 237, 215,0.2);
   background-clip: content-box;
 }
@@ -62,7 +69,7 @@ body {
 
 /* Style for the container */
 .containerp2 {
-  border: 5px dotted black;
+  /* border: 5px dotted black; */
   display: flex; /* Use flexbox to arrange elements horizontally */
   justify-content: center; /* Center horizontally within the page */
   align-items: center; /* Center vertically within the page */
@@ -73,19 +80,21 @@ body {
 .box{
   grid-template-columns: repeat(2, 1fr); /*two columns, with 1fr notating they take equal fraction of space*/
   padding: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0 200px;
   
 
 }
 
 /* this was the orignal box code but the grid template above is better  */
-.box0 {
+.box {
   width: 50%; /* Each box takes up 50% of the container's width */
-  border: 1px solid black; /* Add borders for clarity */
+  /* border: 1px solid black; Add borders for clarity */
   padding: 20px; /* Add padding to create some space inside the boxes */
   margin: 0 200px; /* Add margin to create space between the boxes */
   height: fixed; /* Let the height adjust based on content */   
+  background: #3498db;
+  color: white;
 }
 
 /* Style for the header */
@@ -97,6 +106,7 @@ body {
 /* Style for the categories */
 .category {
   margin-bottom: 10px;
+  position: relative;
 }
 
 /* Style for the vertical nav bars (initially hidden) */
@@ -104,6 +114,8 @@ body {
   background-color: #f2f2f2;
   padding: 10px;
   display: none; /* Hide by default */
+  position: relative;
+  
 
 }
 
@@ -114,6 +126,8 @@ body {
   margin-bottom: 5px;
   text-decoration: none;
   color: #333;
+  
+
 }
 
 /* Show the nav-bar on hover over the category */
