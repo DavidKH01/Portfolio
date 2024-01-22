@@ -1,0 +1,52 @@
+.div3 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.containerp3 {
+  display: grid; /* Use CSS Grid to arrange tiles */
+  grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+  grid-gap: 30px; /* Gap between tiles */
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.tile {
+  width: 100px; /* Adjust the width of each tile as needed */
+  height: 100px; /* Adjust the height of each tile as needed */
+  background-color: #3498db; /* Set a background color for the tiles */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Text color for tile content */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tile:nth-child(1) {
+  grid-column: 1 ; /* Tile 1 column */
+  grid-row: 1;    /* Tile 1 row */
+  justify-self: end; /*align tile to right*/
+  
+
+}
+
+.tile:nth-child(2) {
+  grid-column: 1 ; /* Tile 2 column */
+  justify-self: end;  /*align tile to right*/
+
+}
+
+.tile:nth-child(3) {
+  grid-column: 2; /* Tile 3 in the second column */
+  grid-row: 1;    /* Tile 3 in the first row */
+}
+
+.tile:nth-child(4) {
+  grid-column: 2; /* Tile 4 in the second column */
+}
