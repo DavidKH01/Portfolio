@@ -17,8 +17,8 @@
 }
 
 .tile {
-  width: 100px; /* Adjust the width of each tile as needed */
-  height: 100px; /* Adjust the height of each tile as needed */
+  width: 100px; /* Adjust the width of each tile*/
+  height: 100px; /* Adjust the height of each tile */
   background-color: #3498db; /* Set a background color for the tiles */
   display: flex;
   justify-content: center;
