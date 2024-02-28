@@ -1,1 +1,1 @@
-https://davidkh01.github.io/Portfolio2/index.html
+https://davidkh01.github.io/Portfolio/portfolio2/index.html
