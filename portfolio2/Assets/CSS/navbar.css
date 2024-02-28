@@ -10,6 +10,7 @@
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
+/* *{ border: 1px solid red; } */
 
 body {
     background-color: var(--color-base2);

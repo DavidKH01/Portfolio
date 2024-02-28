@@ -1,5 +1,6 @@
 .container2{
-  height: 500px;
+  min-height: 100vh;
+  height: 100%;
 }
 nav {
   background-color: #333;
